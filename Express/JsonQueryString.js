@@ -17,6 +17,7 @@ app.get('/api/products', (req, res) => {
 })
 // Here we selected just one item with id === 1 
 // and displayed it
+
 app.get('/api/products/1', (req, res) => {
     const singleProduct = products.find( (product) => product.id === 1)
 
